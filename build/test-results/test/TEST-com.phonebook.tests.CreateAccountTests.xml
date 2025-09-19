@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.CreateAccountTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-19T08:06:41.226Z" hostname="MacBook-Air-Anastasiya.local" time="1.347">
+  <properties/>
+  <testcase name="existedUserRegistrationNegativeTest" classname="com.phonebook.tests.CreateAccountTests" time="1.347"/>
+  <system-out><![CDATA[10:06:31.112 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test existedUserRegistrationNegativeTest[]
+10:06:31.112 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+10:06:31.112 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.167 [Test worker] INFO  com.phonebook.utils.MyListener -- List size is 0
+10:06:41.169 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.169 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.xpath: //button[.='Sign Out']
+10:06:41.169 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.180 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+10:06:41.180 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.227 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.cssSelector: [href='/login']
+10:06:41.227 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.237 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+10:06:41.237 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.276 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.name: email
+10:06:41.276 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.283 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:06:41.283 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.310 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.name: email
+10:06:41.310 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.314 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:06:41.314 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.325 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.name: email
+10:06:41.326 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.329 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:06:41.329 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.359 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.name: password
+10:06:41.359 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.364 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+10:06:41.364 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.389 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.name: password
+10:06:41.390 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.394 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+10:06:41.394 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.404 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.name: password
+10:06:41.405 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.409 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+10:06:41.409 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.433 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will find By.name: registration
+10:06:41.433 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.438 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: registration
+10:06:41.438 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- The test have a problem
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- ***************************
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- Method --> alert
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- ****************************
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=140.0.7339.185)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7dbca26797e03a3166f9caec9217fa9, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/qd/5kk3ymcj60x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62455/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7dbca26797e03a3166f9caec9217fa9
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- ***************************************
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@7d18338b
+10:06:41.477 [Test worker] INFO  com.phonebook.utils.MyListener -- ****************************************
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- The test have a problem
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- ***************************
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- Method --> alert
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- ****************************
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=140.0.7339.185)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7dbca26797e03a3166f9caec9217fa9, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/qd/5kk3ymcj60x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62455/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7dbca26797e03a3166f9caec9217fa9
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- ***************************************
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@3f4a605f
+10:06:41.988 [Test worker] INFO  com.phonebook.utils.MyListener -- ****************************************
+10:06:42.563 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: .login_login__3EHKB>div
+10:06:42.563 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:42.572 [Test worker] INFO  com.phonebook.utils.MyListener -- List size is 1
+10:06:42.572 [Test worker] INFO  com.phonebook.utils.MyListener -- ************************************
+10:06:42.573 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: existedUserRegistrationNegativeTest
+10:06:42.573 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:06:42.574 [Test worker] INFO  com.phonebook.tests.TestBase -- *********************************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
